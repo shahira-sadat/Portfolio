@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/shahira-sadat/Portfolio#readme",
   "devDependencies": {
-    "hint": "^6.2.0"
+    "hint": "^6.2.0",
+    "stylelint-csstree-validator": "^2.0.0"
+  },
+  "dependencies": {
+    "stylelint": "^14.8.5",
+    "stylelint-scss": "^4.2.0"
   }
 }
