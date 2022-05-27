@@ -5,8 +5,7 @@ body {
   margin: 0;
 }
 
-
-.desk-item{
+.desk-item {
   display: none;
 }
 
@@ -29,14 +28,14 @@ a {
 }
 
 .headline-section {
-  background-image: url(../image/header-shapes-mobile.png);
+  background-image: url("../image/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
   display: flex;
   height: 670px;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px;
   border-bottom-left-radius: 25% 50px;
   margin-bottom: 100px;
 }
