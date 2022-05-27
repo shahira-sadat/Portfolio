@@ -14,7 +14,7 @@ body {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%);
   position: fixed;
   padding: 0 3px;
   top: 0;
@@ -41,8 +41,6 @@ body {
   font-size: 16px;
 }
 
-
-
 nav {
   display: flex;
   flex: 1 1 auto;
@@ -51,8 +49,6 @@ nav {
   padding: 15px;
   background-color: white;
 }
-
-
 
 a {
   font-style: normal;
