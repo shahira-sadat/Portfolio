@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(248 248 248);
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
@@ -87,13 +87,6 @@ p {
   color: #344563;
 }
 
-.connect {
-  color: #4958e7;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
 ul {
   list-style-type: none;
   display: flex;
@@ -113,8 +106,6 @@ li a {
   display: flex;
 }
 
-
-
 .card-works {
   display: flex;
   flex-direction: column;
@@ -122,24 +113,21 @@ li a {
   width: 100;
   align-items: center;
   gap: 30px;
-
 }
 
 .card {
   display: flex;
   width: 90;
   flex-direction: row;
-  border: 1px solid rgb(223, 220, 220);
+  border: 1px solid rgb(223 220 220);
   border-radius: 15px;
   height: 570px;
   background-color: #fff;
-
 }
 
 .card-image {
   padding: 6px;
   width: 20px;
-  
 }
 
 .card-content {
@@ -156,11 +144,11 @@ li a {
   display: inline-block;
   font-size: 16px;
   font-weight: bolder;
-  color:#73777e;
+  color: #73777e;
 }
 
-#canopy{
-  color:#0f0f0f;
+#canopy {
+  color: #0f0f0f;
 }
 
 .paragraph {
@@ -169,7 +157,6 @@ li a {
   font-size: 16px;
   width: 100;
 }
-
 
 .languages li {
   color: #6070ff;
@@ -197,11 +184,9 @@ li a {
   background-color: #6070ff;
 }
 
-
 .btn a:hover {
   color: white;
 }
-
 
 .about {
   width: 380px;
@@ -227,10 +212,10 @@ li a {
 .connect {
   font-family: Poppins, "Times New Roman", Times, serif;
   text-transform: uppercase;
-  color: var(--secondary);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  color: #4958e7;
 }
 
 .about .main-icons ul {
@@ -247,6 +232,18 @@ li a {
 
 button {
   display: block;
+}
+
+.flex-item3 img {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+}
+
+.flex-item2 h2 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .about button {
@@ -285,7 +282,7 @@ button {
 }
 
 .about .underline {
-  border-bottom: 1px solid var(--neutralsN40);
+  border-bottom: 1px solid rgb(189 185 185);
   width: 100%;
   padding: 22px 0;
 }
@@ -294,7 +291,7 @@ button {
   width: 95%;
   display: flex;
   align-items: center;
-  background-color:#344563;
+  background-color: #344563;
   margin: 8px 0;
   border-radius: 8px;
   padding: 10px;
@@ -325,12 +322,11 @@ button {
   margin-left: 10px;
 }
 
-
 .about-myself {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px;
   padding-top: 100px;
   border-top-right-radius: 25% 50px;
 }
@@ -372,15 +368,9 @@ button {
   margin-top: 30px;
 }
 
-.flex-item3 img {
-  width: auto;
-  height: auto;
-  padding-top: 5px;
-}
-
 .fa-chevron-right,
-.fa-chevron-down{
-  margin-top: 20px; 
+.fa-chevron-down {
+  margin-top: 20px;
 }
 
 .canopy {
@@ -394,12 +384,6 @@ button {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-}
-
-.flex-item2 h2 {
-  color: #172b4d;
-  font-weight: bold;
-  font-size: 32px;
 }
 
 .inner-list {
