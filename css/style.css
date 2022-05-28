@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: rgb(248, 248, 248);
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
@@ -111,4 +111,93 @@ li a {
 .social-icon {
   margin-left: 35px;
   display: flex;
+}
+
+
+
+.card-works {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+  width: 100;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.card {
+  display: flex;
+  width: 90;
+  flex-direction: row;
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 15px;
+  height: 570px;
+  background-color: #fff;
+
+}
+
+.card-image {
+  padding: 6px;
+  width: 20px;
+  
+}
+
+.card-content {
+  width: 280px;
+}
+
+.card-header {
+  color: #1b1a1a;
+  margin-top: 240px;
+  font-weight: 900;
+}
+
+.list li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  color:#73777e;
+}
+
+#canopy{
+  color:#0f0f0f;
+}
+
+.paragraph {
+  color: #73777e;
+  line-height: 24px;
+  font-size: 16px;
+  width: 100;
+}
+
+
+.languages li {
+  color: #6070ff;
+  margin: 10px 1%;
+  padding: 8px;
+  display: inline-block;
+  background-color: #ebebff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn {
+  background: white;
+  border: 1px solid;
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+
+.btn a:hover {
+  color: white;
 }
