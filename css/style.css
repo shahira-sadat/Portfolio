@@ -404,4 +404,16 @@ left: 220px;
   padding: 4px;
   margin-top: 10px;
 
+
+}
+
+.icon-right{
+display: flex;
+justify-content: flex-end;
+float: right;
+}
+
+.content-sec{
+  margin-top: 20px;
+  padding-bottom: 30px;
 }
