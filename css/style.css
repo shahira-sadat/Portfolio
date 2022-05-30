@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: rgb(248, 248, 248);
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
@@ -111,4 +111,298 @@ li a {
 .social-icon {
   margin-left: 35px;
   display: flex;
+}
+
+
+
+.card-works {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+  width: 100;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.card {
+  display: flex;
+  width: 90;
+  flex-direction: row;
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 15px;
+  height: 570px;
+  background-color: #fff;
+
+}
+
+.card-image {
+  padding: 6px;
+  width: 20px;
+  
+}
+
+.card-content {
+  width: 280px;
+}
+
+.card-header {
+  color: #1b1a1a;
+  margin-top: 240px;
+  font-weight: 900;
+}
+
+.list li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  color:#73777e;
+}
+
+#canopy{
+  color:#0f0f0f;
+}
+
+.paragraph {
+  color: #73777e;
+  line-height: 24px;
+  font-size: 16px;
+  width: 100;
+}
+
+
+.languages li {
+  color: #6070ff;
+  margin: 10px 1%;
+  padding: 8px;
+  display: inline-block;
+  background-color: #ebebff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn {
+  background: white;
+  border: 1px solid;
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+
+.btn a:hover {
+  color: white;
+}
+
+
+.about {
+  width: 380px;
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.about h1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #344563;
+}
+
+.about p {
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.connect {
+  font-family: Poppins, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: var(--secondary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about .main-icons ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  width: 180px;
+}
+
+.about .main-icons ul li a {
+  font-size: 22px;
+  color: var(--neutral-icons);
+}
+
+button {
+  display: block;
+}
+
+.about button {
+  margin-bottom: 35px;
+  text-transform: none;
+}
+
+.about .main-skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  cursor: pointer;
+}
+
+.about .main-skill i {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.form h2 {
+  padding-top: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin: 0;
+}
+
+.about .main-skill h2 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 500;
+}
+
+.about .underline {
+  border-bottom: 1px solid var(--neutralsN40);
+  width: 100%;
+  padding: 22px 0;
+}
+
+.about .skill {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background-color:#344563;
+  margin: 8px 0;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.about .js {
+  margin-top: 33px;
+}
+
+.about .css {
+  margin-bottom: 33px;
+}
+
+.about .html {
+  margin: 12px 0;
+}
+
+.about .skill img {
+  width: 45px;
+}
+
+.about .skill h4 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #344563;
+  margin-left: 10px;
+}
+
+
+.about-myself {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  padding-top: 100px;
+  border-top-right-radius: 25% 50px;
+}
+
+.contact-icon {
+  margin-left: 45px;
+  padding-bottom: 20px;
+}
+
+.about-myself button {
+  border-radius: 8px;
+  border: 1px solid #3d4ee4;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.flex-item6 button {
+  border-radius: 8px;
+  border: 1px solid #3d4ee4;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.flex-item3 img {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+}
+
+.fa-chevron-right,
+.fa-chevron-down{
+  margin-top: 20px; 
+}
+
+.canopy {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.flex-item4 {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.flex-item2 h2 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.inner-list {
+  display: flex;
+  flex-direction: column;
 }
