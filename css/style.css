@@ -87,13 +87,6 @@ p {
   color: #344563;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
-  padding: 1px;
-  margin: 1px;
-}
 
 li a {
   color: #2d3b55;
@@ -413,4 +406,13 @@ button {
 .content-sec {
   margin-top: 20px;
   padding-bottom: 30px;
+}
+
+li{
+  float: left;
+  padding: 10px;
+}
+
+.floats{
+  list-style-type: none;
 }
