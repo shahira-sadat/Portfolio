@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-color: rgb(248, 248, 248);
+=======
+  background-color: rgb(248 248 248);
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
@@ -87,13 +91,6 @@ p {
   color: #344563;
 }
 
-.connect {
-  color: #4958e7;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
 ul {
   list-style-type: none;
   display: flex;
@@ -113,8 +110,11 @@ li a {
   display: flex;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .card-works {
   display: flex;
   flex-direction: column;
@@ -122,24 +122,37 @@ li a {
   width: 100;
   align-items: center;
   gap: 30px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 }
 
 .card {
   display: flex;
   width: 90;
   flex-direction: row;
+<<<<<<< HEAD
   border: 1px solid rgb(223, 220, 220);
   border-radius: 15px;
   height: 570px;
   background-color: #fff;
 
+=======
+  border: 1px solid rgb(223 220 220);
+  border-radius: 15px;
+  height: 570px;
+  background-color: #fff;
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 }
 
 .card-image {
   padding: 6px;
   width: 20px;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 }
 
 .card-content {
@@ -156,11 +169,19 @@ li a {
   display: inline-block;
   font-size: 16px;
   font-weight: bolder;
+<<<<<<< HEAD
   color:#73777e;
 }
 
 #canopy{
   color:#0f0f0f;
+=======
+  color: #73777e;
+}
+
+#canopy {
+  color: #0f0f0f;
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 }
 
 .paragraph {
@@ -170,7 +191,10 @@ li a {
   width: 100;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .languages li {
   color: #6070ff;
   margin: 10px 1%;
@@ -197,12 +221,18 @@ li a {
   background-color: #6070ff;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .btn a:hover {
   color: white;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .about {
   width: 380px;
   background-color: #fff;
@@ -227,10 +257,17 @@ li a {
 .connect {
   font-family: Poppins, "Times New Roman", Times, serif;
   text-transform: uppercase;
+<<<<<<< HEAD
   color: var(--secondary);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+=======
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4958e7;
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 }
 
 .about .main-icons ul {
@@ -249,6 +286,21 @@ button {
   display: block;
 }
 
+<<<<<<< HEAD
+=======
+.flex-item3 img {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+}
+
+.flex-item2 h2 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .about button {
   margin-bottom: 35px;
   text-transform: none;
@@ -277,6 +329,14 @@ button {
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+.underline {
+  border: 0.5px solid #bbbdc0;
+  top: 20px;
+}
+
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .about .main-skill h2 {
   font-size: 20px;
   line-height: 24px;
@@ -285,7 +345,11 @@ button {
 }
 
 .about .underline {
+<<<<<<< HEAD
   border-bottom: 1px solid var(--neutralsN40);
+=======
+  border-bottom: 1px solid rgb(189 185 185);
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
   width: 100%;
   padding: 22px 0;
 }
@@ -294,7 +358,11 @@ button {
   width: 95%;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   background-color:#344563;
+=======
+  background-color: #344563;
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
   margin: 8px 0;
   border-radius: 8px;
   padding: 10px;
@@ -325,12 +393,19 @@ button {
   margin-left: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .about-myself {
   background-color: white;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   padding: 20px 20px;
+=======
+  padding: 20px;
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
   padding-top: 100px;
   border-top-right-radius: 25% 50px;
 }
@@ -372,6 +447,7 @@ button {
   margin-top: 30px;
 }
 
+<<<<<<< HEAD
 .flex-item3 img {
   width: auto;
   height: auto;
@@ -381,6 +457,12 @@ button {
 .fa-chevron-right,
 .fa-chevron-down{
   margin-top: 20px; 
+=======
+.fa-chevron-down {
+  position: relative;
+  top: 32px;
+  left: 220px;
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 }
 
 .canopy {
@@ -396,13 +478,37 @@ button {
   color: #344563;
 }
 
+<<<<<<< HEAD
 .flex-item2 h2 {
   color: #172b4d;
   font-weight: bold;
   font-size: 32px;
 }
 
+=======
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
 .inner-list {
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
+=======
+
+.programming-sec {
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.icon-right {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+.content-sec {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+>>>>>>> 28d312da654c5c9cf355ee6839b30452b68956ca
