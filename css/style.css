@@ -84,7 +84,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  
 }
 
 ul {
@@ -422,27 +421,43 @@ button {
   flex-direction: column;
   color: #fff;
   align-items: center;
-  
 }
 
-.contact-content{
+.contact-content {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 700;
 }
-.contact-header{
+.contact-header {
   margin-bottom: 0;
   margin-top: 5em;
 }
 form {
   display: flex;
   flex-direction: column;
+  gap: 1em;
 }
 
-.contact-paragraph{
+.contact-paragraph {
   width: 50%;
   padding-left: 1.2em;
   padding-right: 1.2em;
+}
+
+#user-name {
+  border-radius: 5px;
+  width: 20em;
+  height: 1em;
+}
+#user-email {
+  border-radius: 5px;
+  width: 20em;
+  height: 2em;
+}
+textarea {
+  border-radius: 5px;
+  width: 20em;
+  height: 13em;
 }
