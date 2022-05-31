@@ -414,3 +414,19 @@ button {
   margin-top: 20px;
   padding-bottom: 30px;
 }
+.footer {
+  background-image: url("../image/Contact_me.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-header . {
+  color: #fff;
+}
