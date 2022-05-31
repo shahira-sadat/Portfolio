@@ -415,12 +415,10 @@ button {
 }
 .footer {
   background-image: url("../image/Contact_me.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  flex-direction: column;
   color: #fff;
-  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
 }
 
 .contact-content {
@@ -437,27 +435,53 @@ button {
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1em;
 }
 
 .contact-paragraph {
-  width: 50%;
+  width: 65%;
   padding-left: 1.2em;
   padding-right: 1.2em;
+  margin-bottom: 2em;
 }
 
 #user-name {
   border-radius: 5px;
   width: 20em;
-  height: 1em;
+  height: 1.3em;
+  padding: 1em;
+  border: 0px solid #fff;
 }
 #user-email {
   border-radius: 5px;
   width: 20em;
-  height: 2em;
+  height: 1.6em;
+  padding: 1em;
+  border: 0px solid #fff;
 }
 textarea {
   border-radius: 5px;
+  border: 0px solid #fff;
   width: 20em;
   height: 13em;
+  color:#B3BAC5;
+  padding: 1em;
+
+}
+
+.footer button{
+  align-self: flex-start;
+  margin-left: 4em;
+  color:  #6070FF;
+  background-color: #fff;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 0px solid #fff;
+  margin-bottom: 1em;
+
+}
+
+.footer-img{
+  margin-bottom: 0.5em;
 }
