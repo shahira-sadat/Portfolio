@@ -380,6 +380,10 @@
     flex-direction: row;
   }
 
+  .programming-sec ul li {
+    margin-top: 1em;
+  }
+
   .outer-item {
     display: flex;
     flex-direction: column;
@@ -438,7 +442,6 @@
     padding: 1px;
     margin-bottom: 2em;
   }
-
 
   .language {
     display: flex;
