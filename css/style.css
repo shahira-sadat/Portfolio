@@ -57,6 +57,13 @@ a {
   line-height: 20px;
   color: #6070ff;
   text-decoration-line: none;
+  opacity: 1;
+}
+
+
+
+.desktop-item{
+  visibility: hidden;
 }
 
 .headline-section {
@@ -82,9 +89,10 @@ h1 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
   line-height: 24px;
 }
+
+
 
 ul {
   list-style-type: none;
@@ -108,29 +116,58 @@ li a {
 .card-works {
   display: flex;
   flex-direction: column;
-  margin: 20px 50px;
-  width: 100;
   align-items: center;
   gap: 30px;
+  margin-bottom: 7em;
 }
 
 .card {
   display: flex;
-  width: 90;
-  flex-direction: row;
+  flex-direction: column;
   border: 1px solid rgb(223 220 220);
   border-radius: 15px;
-  height: 570px;
+  height: 600px;
+  width: 90vw;
   background-color: #fff;
 }
 
-.card-image {
-  padding: 6px;
-  width: 20px;
+
+
+.card-image{
+  border-radius: 8px;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: 90% 105%;
+    padding-right: 14em;
+    height: 47em;
+    margin: 1em;
+    padding-top: 15em;
+  
 }
+
+.card-image1{
+  background-image: url("../image/Snapshoot1.png");
+}
+
+.card-image2{
+  background-image: url("../image/Snapshoot2.png");
+}
+
+.card-image3{
+  background-image: url("../image/Snapshoot3.png");
+}
+
+.card-image4{
+  background-image: url("../image/Snapshoot4.png");
+}
+
+
 
 .card-content {
   width: 280px;
+  padding-left: 1em;
+  position: relative;
+  top: -15em;
 }
 
 .card-header {
@@ -157,6 +194,9 @@ li a {
   width: 100;
 }
 
+.content-paragraph{
+  font-size: 16px;
+}
 .languages li {
   color: #6070ff;
   margin: 10px 1%;
@@ -231,18 +271,6 @@ li a {
 
 button {
   display: block;
-}
-
-.flex-item3 img {
-  width: auto;
-  height: auto;
-  padding-top: 5px;
-}
-
-.flex-item2 h2 {
-  color: #172b4d;
-  font-weight: bold;
-  font-size: 32px;
 }
 
 .about button {
@@ -331,8 +359,9 @@ button {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 10px;
   border-top-right-radius: 25% 50px;
+  padding-bottom: 4em;
 }
 
 .contact-icon {
@@ -378,6 +407,10 @@ button {
   left: 220px;
 }
 
+.fa-circle{
+  color: #C1C7D0;
+  font-size: 10px;
+}
 .canopy {
   font-weight: 600;
   font-size: 13px;
@@ -446,7 +479,6 @@ form {
   padding-left: 1.2em;
   padding-right: 1.2em;
   margin-bottom: 2em;
-  text-align: center;
 }
 
 #user-name {
@@ -476,15 +508,15 @@ textarea {
 
 .footer button {
   align-self: flex-start;
-  margin-left: 10vw;
   color: #6070ff;
   background-color: #fff;
   padding: 0.8em;
   border-radius: 5px;
   border: 0 solid #fff;
-  margin-bottom: 1em;
 }
 
 .footer-img {
   margin-bottom: 0.5em;
+  margin-top: 5em;
+  margin-left: 4em;
 }
