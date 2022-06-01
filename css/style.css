@@ -446,7 +446,9 @@ form {
   padding-left: 1.2em;
   padding-right: 1.2em;
   margin-bottom: 2em;
+  text-align: center;
 }
+
 
 #user-name {
   border-radius: 5px;
@@ -475,7 +477,7 @@ textarea {
 
 .footer button {
   align-self: flex-start;
-  margin-left: 28%;
+  margin-left: 10vw;
   color: #6070ff;
   background-color: #fff;
   padding: 0.8em;
