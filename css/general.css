@@ -41,13 +41,13 @@
     float: right;
   }
 
-  .desk-item {
+  .desktop-item {
     display: flex;
     flex-direction: row;
     margin-right: 100px;
   }
 
-  .desk-item a {
+  .desktop-item a {
     padding-right: 20px;
     color: #344563;
     font-size: 15px;
@@ -71,12 +71,12 @@
   }
 
   .headline-section {
-    background-image: url("../images/Header_bg.png");
+    background-image: url("../image/Header_bg.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 95%;
     background-color: white;
     display: flex;
-    height: 620px;
+    height: 470px;
     flex-direction: column;
     padding: 300px 200px 50px 250px;
     margin-bottom: 120px;
@@ -88,13 +88,26 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
+    margin-top: -30px;
   }
 
   .headline-section p {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 1em;
+  }
+
+  .content-paragraph{
     color: #344563;
+
+  }
+
+  .connect{
+    color: #7F8CFF;
+
   }
 
   .social-icon {
@@ -104,86 +117,3 @@
     padding: 1px;
     margin: 1px;
   }
-
-  .cards {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 15%;
-    width: 70%;
-    align-items: center;
-    gap: 80px;
-  }
-
-  .card {
-    display: flex;
-    width: 330px;
-    flex-direction: row;
-    border: 1px solid rgb(223 220 220);
-    border-radius: 15px;
-    height: 550px;
-    background-color: #fff;
-  }
-
-  .card-img {
-    padding: 8px;
-    width: 50px;
-  }
-
-  .card-contents {
-    width: 280px;
-  }
-
-  .card-head {
-    color: #1b1a1a;
-    margin-top: 240px;
-    font-weight: 900;
-  }
-
-  .list li {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bolder;
-    color: #73777e;
-  }
-
-  #canopy {
-    color: #0f0f0f;
-  }
-
-  .paragraph {
-    color: #73777e;
-    line-height: 20px;
-    font-size: 16px;
-    width: 100;
-  }
-
-  .languages li {
-    color: #6070ff;
-    margin: 10px 1%;
-    padding: 8px;
-    display: inline-block;
-    background-color: #ebebff;
-    border: none;
-    border-radius: 8px;
-  }
-
-  .btn {
-    background: white;
-    border: 1px solid;
-    width: 120px;
-    height: 45px;
-    border-radius: 8px;
-    font-size: 17px;
-    line-height: 24px;
-    color: #396df2;
-  }
-
-  .btn:hover {
-    color: white;
-    background-color: #6070ff;
-  }
-
-  .btn a:hover {
-    color: white;
-  }
-}
