@@ -84,7 +84,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
 }
 
 ul {
@@ -413,4 +412,79 @@ button {
 .content-sec {
   margin-top: 20px;
   padding-bottom: 30px;
+}
+
+.footer {
+  background-image: url("../image/Contact_me.png");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contact-content {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+.contact-header {
+  margin-bottom: 0;
+  margin-top: 5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.contact-paragraph {
+  width: 65%;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#user-name {
+  border-radius: 5px;
+  width: 20em;
+  height: 1.3em;
+  padding: 1em;
+  border: 0 solid #fff;
+}
+
+#user-email {
+  border-radius: 5px;
+  width: 20em;
+  height: 1.6em;
+  padding: 1em;
+  border: 0 solid #fff;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 0 solid #fff;
+  width: 20em;
+  height: 13em;
+  color: #b3bac5;
+  padding: 1em;
+}
+
+.footer button {
+  align-self: flex-start;
+  margin-left: 10vw;
+  color: #6070ff;
+  background-color: #fff;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 0 solid #fff;
+  margin-bottom: 1em;
+}
+
+.footer-img {
+  margin-bottom: 0.5em;
 }
