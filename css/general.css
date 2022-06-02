@@ -10,6 +10,12 @@
     text-decoration: none;
     text-decoration-line: none;
   }
+  h1:hover {
+    width: 30%;
+    background-color: pink;
+    transform: scale(0.5);
+    transition: width 2s, background-color 2s, transform 2s;
+  }
 
   .flex-item1,
   .shape,
@@ -187,26 +193,24 @@
     color: white;
   }
 
-  .fa:hover{
+  .fa:hover {
     transform: rotate(45deg);
     animation-name: size;
     animation-duration: 1s;
-  
   }
-  
-  @keyframes size{
-    0%{
+
+  @keyframes size {
+    0% {
       font-size: 1em;
       color: red;
     }
-    50%{
+    50% {
       font-size: 4em;
       color: blue;
     }
-    100%{
+    100% {
       font-size: 7em;
       color: black;
     }
   }
-  
 }
