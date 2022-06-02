@@ -10,6 +10,7 @@
     text-decoration: none;
     text-decoration-line: none;
   }
+
   h1:hover {
     width: 30%;
     background-color: pink;
@@ -204,10 +205,12 @@
       font-size: 1em;
       color: red;
     }
+
     50% {
       font-size: 4em;
       color: blue;
     }
+
     100% {
       font-size: 7em;
       color: black;
