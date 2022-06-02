@@ -186,4 +186,27 @@
   .btn a:hover {
     color: white;
   }
+
+  .fa:hover{
+    transform: rotate(45deg);
+    animation-name: size;
+    animation-duration: 1s;
+  
+  }
+  
+  @keyframes size{
+    0%{
+      font-size: 1em;
+      color: red;
+    }
+    50%{
+      font-size: 4em;
+      color: blue;
+    }
+    100%{
+      font-size: 7em;
+      color: black;
+    }
+  }
+  
 }
