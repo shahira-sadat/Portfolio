@@ -10,6 +10,12 @@
     text-decoration: none;
     text-decoration-line: none;
   }
+  h1:hover {
+    width: 30%;
+    background-color: pink;
+    transform: scale(0.5);
+    transition: width 2s, background-color 2s, transform 2s;
+  }
 
   .flex-item1,
   .shape,
@@ -198,12 +204,10 @@
       font-size: 1em;
       color: red;
     }
-
     50% {
       font-size: 4em;
       color: blue;
     }
-
     100% {
       font-size: 7em;
       color: black;
