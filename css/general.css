@@ -146,6 +146,8 @@
 
   .card-image2 {
     background-image: url("../image/Snap2.png");
+    position: relative;
+    left: 37.5em;
   }
 
   .card-image3 {
@@ -154,12 +156,21 @@
 
   .card-image4 {
     background-image: url("../image/Snap4.png");
+    position: relative;
+    left: 37.5em;
   }
 
   .card-content {
     padding-left: 1em;
     position: relative;
     right: 2em;
+    top: -12em;
+  }
+
+  .card-content1 {
+    padding-left: 1em;
+    position: relative;
+    right: 30em;
     top: -12em;
   }
 
