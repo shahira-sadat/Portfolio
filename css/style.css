@@ -117,12 +117,12 @@ li a {
   margin-bottom: 7em;
 }
 
-.card {
+.card , .card1{
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(223 220 220);
   border-radius: 15px;
-  height: 600px;
+  height: 620px;
   width: 90vw;
   background-color: #fff;
 }
@@ -169,9 +169,16 @@ li a {
 
 .list li {
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bolder;
   color: #73777e;
+  margin-right: -2px;
+}
+
+.fa-circle {
+  color: #c1c7d0;
+  font-size: 10px;
+  visibility: hidden;
 }
 
 #canopy {
@@ -191,7 +198,8 @@ li a {
 
 .languages li {
   color: #6070ff;
-  margin: 10px 1%;
+  margin-bottom: 15px;
+  margin-right: -12px;
   padding: 8px;
   display: inline-block;
   background-color: #ebebff;
@@ -399,11 +407,6 @@ button {
   left: 220px;
 }
 
-.fa-circle {
-  color: #c1c7d0;
-  font-size: 10px;
-}
-
 .canopy {
   font-weight: 600;
   font-size: 13px;
@@ -411,10 +414,14 @@ button {
   color: #344563;
 }
 
-.flex-item4 {
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
+.ruby {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.hand-icon {
+  visibility: hidden;
 }
 
 .inner-list {

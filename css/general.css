@@ -113,8 +113,10 @@
   }
 
   .card-works {
+    display: grid;
+    grid-gap: 5em;
     background-color: #e5e5e5;
-    margin-bottom: 7em;
+    justify-content: center;
   }
 
   .card {
@@ -122,22 +124,33 @@
     flex-direction: row;
     justify-content: center;
     background: #fff;
-    border: 1px solid #dfe1e6;
+    border: 2px solid #a7aeff;
     border-radius: 24px;
     width: 75vw;
-    height: 53vh;
-    margin: 0 10em 6em;
+    height: 58vh;
+    gap: 2em;
+  }
+
+  .card1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid #a7aeff;
+    border-radius: 24px;
+    width: 75vw;
+    height: 58vh;
+    gap: -1em;
   }
 
   .card-image {
     border-radius: 8px;
-    width: 50%;
     background-repeat: no-repeat;
-    background-size: 90% 45%;
-    padding: 1em;
-    height: 50em;
-    margin: 1em;
-    margin-left: 1em;
+    background-size: 100% 78%;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 580px;
+    height: 500px;
   }
 
   .card-image1 {
@@ -146,8 +159,7 @@
 
   .card-image2 {
     background-image: url("../image/Snap2.png");
-    position: relative;
-    left: 37.5em;
+    margin-right: 30px;
   }
 
   .card-image3 {
@@ -156,22 +168,21 @@
 
   .card-image4 {
     background-image: url("../image/Snap4.png");
-    position: relative;
-    left: 37.5em;
+    margin-right: 30px;
   }
 
   .card-content {
-    padding-left: 1em;
-    position: relative;
-    right: 2em;
-    top: -12em;
+    padding-right: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 544px;
+    height: 465px;
+    margin-top: -12em;
   }
 
   .card-content1 {
-    padding-left: 1em;
-    position: relative;
-    right: 30em;
-    top: -12em;
+    margin-left: 26px;
   }
 
   .card-header {
@@ -182,6 +193,8 @@
 
   .card-content ul {
     margin-left: -2.4em;
+    display: flex;
+    flex-direction: row;
   }
 
   .list li {
@@ -202,8 +215,29 @@
     color: #344563;
   }
 
+  .hand-icon {
+    width: 4em;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 200px;
+    margin-top: -45px;
+  }
+
+  #select {
+    color: #fff;
+    background-color: #6070ff;
+    padding: 10px;
+  }
+
+  #button1,
+  #button2 {
+    padding: 10px;
+  }
+
   .fa-circle {
     color: #c1c7d0;
+    font-size: 12px;
   }
 
   .paragraph {
@@ -212,6 +246,8 @@
     line-height: 24px;
     letter-spacing: 0;
     text-align: left;
+    width: 480px;
+    height: 70px;
   }
 
   .content-paragraph {
@@ -256,12 +292,12 @@
   .btn {
     background: white;
     border: 1px solid;
-    width: 120px;
-    height: 45px;
     border-radius: 8px;
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
+    width: 120px;
+    height: 45px;
   }
 
   .btn:hover {
@@ -293,48 +329,9 @@
     float: right;
   }
 
-  .flex-item4 {
-    padding-bottom: 25px;
-  }
-
-  .flex-item4 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  .flex-item3 {
-    display: flex;
-    align-content: space-around;
-    margin-left: 40px;
-  }
-
-  .flex-item5 {
-    display: flex;
-    margin-left: 50px;
-  }
-
   .inner-flex-item {
     display: flex;
     column-gap: 10px;
-  }
-
-  .flex-item6 button {
-    border: 1px solid #dfe1e6;
-    border-radius: 8px;
-    width: 140px;
-    height: 50px;
-    text-align: center;
-    padding: 10px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    background-color: white;
-    margin-top: 30px;
   }
 
   .resume {
@@ -369,6 +366,7 @@
     padding: 100px 20px 150px;
     border-top-right-radius: 100px;
     height: 680px;
+    margin-top: 4em;
   }
 
   .desk-about {
