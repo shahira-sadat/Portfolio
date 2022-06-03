@@ -151,6 +151,8 @@
     margin-top: 20px;
     width: 580px;
     height: 500px;
+    overflow: hidden;
+    object-fit: cover;
   }
 
   .card-image1 {
@@ -519,10 +521,10 @@
     color: #ebebff;
     height: 10vh;
     border-radius: nullpx;
-
   }
 
-  #user-name, #user-email {
+  #user-name,
+  #user-email {
     border-radius: 5px;
     width: 34em;
     height: 1.3em;
@@ -530,15 +532,13 @@
     border: 0 solid #fff;
   }
 
-
   textarea {
     border: 0 solid #fff;
     color: #b3bac5;
     padding: 1em;
     height: 170px;
-width: 447px;
-border-radius: 2px;
-
+    width: 447px;
+    border-radius: 2px;
   }
 
   .footer button {
