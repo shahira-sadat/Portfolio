@@ -481,6 +481,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-top-left-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .contact-content {
@@ -507,53 +510,49 @@
   }
 
   .contact-paragraph {
-    width: 22vw;
+    width: 40vw;
     padding-left: 1.2em;
     padding-right: 1.4em;
     margin-bottom: 2em;
-    font-size: 0.8em;
+    font-size: 20px;
     text-align: center;
     color: #ebebff;
+    height: 10vh;
+    border-radius: nullpx;
+
   }
 
-  #user-name {
+  #user-name, #user-email {
     border-radius: 5px;
-    width: 20em;
+    width: 34em;
     height: 1.3em;
     padding: 1em;
     border: 0 solid #fff;
   }
 
-  #user-email {
-    border-radius: 5px;
-    width: 20em;
-    height: 1.6em;
-    padding: 1em;
-    border: 0 solid #fff;
-  }
 
   textarea {
-    border-radius: 5px;
     border: 0 solid #fff;
-    width: 20em;
-    height: 13em;
     color: #b3bac5;
     padding: 1em;
+    height: 170px;
+width: 447px;
+border-radius: 2px;
+
   }
 
   .footer button {
-    align-self: flex-start;
+    align-self: center;
     color: #6070ff;
     background-color: #fff;
     padding: 0.8em;
     border-radius: 5px;
     border: 0 solid #fff;
-    margin-left: 6.7em;
   }
 
   .footer-img {
     margin-bottom: 0.5em;
     margin-top: 5em;
-    margin-left: 4em;
+    margin-left: 10.7em;
   }
 }
