@@ -18,22 +18,19 @@
 
   @keyframes scalehead {
     0% {
-      font-size: 48px;;
-     
+      font-size: 48px;
     }
-  
+
     50% {
-      font-size: 52px;;
-      color:#6070ff;
+      font-size: 52px;
+      color: #6070ff;
     }
-  
+
     100% {
-      font-size: 48px;;
-      color:#091e42;
+      font-size: 48px;
+      color: #091e42;
     }
-}
-
-
+  }
 
   .flex-item1,
   .shape,
@@ -216,20 +213,20 @@
     animation-duration: 1s;
   }
 
-    @keyframes size {
-      0% {
-        font-size: 1em;
-        color: #396df2;
-      }
-    
-      50% {
-        font-size: 2em;
-        color: black;
-      }
-    
-      100% {
-        font-size: 1em;
-        color: #396df2;
-      }
+  @keyframes size {
+    0% {
+      font-size: 1em;
+      color: #396df2;
+    }
+
+    50% {
+      font-size: 2em;
+      color: black;
+    }
+
+    100% {
+      font-size: 1em;
+      color: #396df2;
+    }
   }
 }
