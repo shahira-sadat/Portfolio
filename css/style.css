@@ -498,16 +498,16 @@ textarea {
 @keyframes size {
   0% {
     font-size: 1em;
-    color: red;
+    color: #396df2;
   }
 
   50% {
-    font-size: 4em;
-    color: blue;
+    font-size: 2em;
+    color: black;
   }
 
   100% {
-    font-size: 7em;
-    color: black;
+    font-size: 1em;
+    color: #396df2;
   }
 }

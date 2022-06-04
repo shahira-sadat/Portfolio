@@ -12,11 +12,28 @@
   }
 
   h1:hover {
-    width: 30%;
-    background-color: pink;
-    transform: scale(0.5);
-    transition: width 2s, background-color 2s, transform 2s;
+    animation-name: scalehead;
+    animation-duration: 2s;
   }
+
+  @keyframes scalehead {
+    0% {
+      font-size: 48px;;
+     
+    }
+  
+    50% {
+      font-size: 52px;;
+      color:#6070ff;
+    }
+  
+    100% {
+      font-size: 48px;;
+      color:#091e42;
+    }
+}
+
+
 
   .flex-item1,
   .shape,
@@ -195,25 +212,24 @@
   }
 
   .fa:hover {
-    transform: rotate(45deg);
     animation-name: size;
     animation-duration: 1s;
   }
 
-  @keyframes size {
-    0% {
-      font-size: 1em;
-      color: red;
-    }
-
-    50% {
-      font-size: 4em;
-      color: blue;
-    }
-
-    100% {
-      font-size: 7em;
-      color: black;
-    }
+    @keyframes size {
+      0% {
+        font-size: 1em;
+        color: #396df2;
+      }
+    
+      50% {
+        font-size: 2em;
+        color: black;
+      }
+    
+      100% {
+        font-size: 1em;
+        color: #396df2;
+      }
   }
 }
