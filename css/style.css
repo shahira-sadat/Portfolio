@@ -488,3 +488,26 @@ textarea {
 .footer-img {
   margin-bottom: 0.5em;
 }
+
+.fa:hover {
+  transform: rotate(45deg);
+  animation-name: size;
+  animation-duration: 1s;
+}
+
+@keyframes size {
+  0% {
+    font-size: 1em;
+    color: #396df2;
+  }
+
+  50% {
+    font-size: 2em;
+    color: black;
+  }
+
+  100% {
+    font-size: 1em;
+    color: #396df2;
+  }
+}
