@@ -2,6 +2,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Project online version](#online-version)
 * [Built With](#built-with)
 * [Getting Started](Getting-Started)
 * [Usage](#usage)
@@ -11,7 +12,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project represents my personal Portfolio and features some of my github projects
+This project represents my personal Portfolio and features some of my github projects.
+
+## Project online version
+
+Check the online version of Portfolio project
+[here](https://shahira-sadat.github.io/Portfolio/)
 
 ### Built With
 This project was built using these technologies.
