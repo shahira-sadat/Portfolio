@@ -21,7 +21,7 @@ Check the online version of Portfolio project
 
 ### Built With
 This project was built using these technologies.
-* HTML
+* HTML5
 * CSS3
 * VsCode
 
@@ -73,7 +73,3 @@ Give a :star: if you like this project!
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
-
-## 📝 License
-
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
