@@ -240,11 +240,11 @@ li a {
 }
 
 .languages li {
-  color: #6070ff;
+  color: #333c91;
   margin: 10px 1%;
   padding: 8px;
   display: inline-block;
-  background-color: #ebebff;
+  background-color: #ededfc;
   border: none;
   border-radius: 8px;
 }
