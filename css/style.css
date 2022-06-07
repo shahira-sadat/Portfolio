@@ -32,8 +32,6 @@ body {
   font-weight: bold;
 }
 
-
-
 nav {
   display: flex;
   flex: 1 1 auto;
@@ -57,19 +55,24 @@ a {
   display: none;
 }
 
-.item a{
+li a {
+  color: #2d3b55;
+  margin-left: -42px;
+  padding-right: 35px;
+}
+
+.item a {
   color: transparent;
   width: 0;
   height: 0;
   margin: -2em;
 }
 
-.item a .fa-bars{
+.item a .fa-bars {
   color: #6070ff;
   font-size: 16px;
   margin-left: -10px;
 }
-
 
 .desktop-item {
   visibility: hidden;
@@ -109,12 +112,6 @@ ul {
   margin: 1px;
 }
 
-li a {
-  color: #2d3b55;
-  margin-left: -42px;
-  padding-right: 35px;
-}
-
 .social-icon {
   margin-left: 35px;
   display: flex;
@@ -127,10 +124,28 @@ li a {
   margin: -2.5em;
 }
 
-.social-icon a .social{
+.social-icon a .social {
   font-size: 2em;
   color: #344563;
   margin-left: 10px;
+}
+
+.contact-icon {
+  margin-left: 45px;
+  padding-bottom: 20px;
+}
+
+.contact-icon a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2em;
+}
+
+.contact-icon a .social {
+  font-size: 24px;
+  color: #344563;
+  margin-left: -10px;
 }
 
 .btn {
@@ -409,25 +424,6 @@ button {
   padding-bottom: 4em;
 }
 
-.contact-icon {
-  margin-left: 45px;
-  padding-bottom: 20px;
-}
-
-.contact-icon a
-{
-  color: transparent;
-  width: 0;
-  height: 0;
-  margin: -2em;
-}
-
-.contact-icon a .social{
-  font-size: 24px;
-  color: #344563;
-  margin-left: -10px;
-}
-
 .about-myself button {
   border-radius: 8px;
   border: 1px solid #3d4ee4;
@@ -517,7 +513,8 @@ textarea {
   color: #b3bac5;
   padding: 1em;
 }
-.label-visibility{
+
+.label-visibility {
   visibility: hidden;
 }
 
