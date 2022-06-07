@@ -29,7 +29,7 @@
           </div>
     
           <div class="item menu">
-            <a href="#" class="openMenu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="openMenu"><i class="fa fa-bars"></i>bars</a>
           </div>
         </nav>
       </section>
@@ -37,7 +37,7 @@
     
     <main class="main-parts" id="portfolio">
       <section class="headline-section">
-        <h1>
+        <h1 tabindex="0">
           I'm Shahira <br>Glad to see you!
         </h1>
         <p class="content-paragraph">
@@ -48,25 +48,25 @@
         <a href="#"><p class="connect">LET'S CONNECT</p></a>
         <ul class="social-icon">
           <li>
-            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com" class="icon-link"><i class="fa fa-twitter social"></i>twitter</a>
           </li>
           <li>
-            <a href="https://af.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://af.linkedin.com/"><i class="fa fa-linkedin social"></i>Linkedin</a>
           </li>
           <li>
-            <a href="https://medium.com/"><i class="fa fa-medium"></i></a>
+            <a href="https://medium.com/"><i class="fa fa-medium social"></i>Medium</a>
           </li>
           <li>
-            <a href="https://github.com/"><i class="fa fa-github"></i></a>
+            <a href="https://github.com/"><i class="fa fa-github social"></i>Github</a>
           </li>
           <li>
-            <a href="https://angel.co/"><i class="fa fa-angellist"></i></a>
+            <a href="https://angel.co/"><i class="fa fa-angellist social"></i>Angellist</a>
           </li>
         </ul>
       </section>
       <section class="card">
         <div class="card-image">
-          <img src="image/Snapshoot2.png" alt="Work sample illustration">
+          <img src="image/Snapshoot2.png" alt="Work sample illustration for Tonic project">
         </div>
         <div class="card-contents">
           <h2 class="card-head">Tonic</h2>
@@ -86,7 +86,7 @@
       </section>
         <section class="card card2">
         <div class="card-image">
-          <img src="image/Snapshoot3.png" alt="Work sample illustration">
+          <img src="image/Snapshoot3.png" alt="Work sample illustration for Multi-Post Stories project">
         </div>
         <div class="card-contents">
           <h2 class="card-head">Multi-Post Stories</h2>
@@ -107,7 +107,7 @@
       </section>
       <section class="card">
         <div class="card-image">
-          <img src="image/Snapshoot1.png" alt="Work sample illustration">
+          <img src="image/Snapshoot1.png" alt="Work sample illustration for Facebook 360 project">
         </div>
         <div class="card-contents">
           <h2 class="card-head">Facebook 360</h2>
@@ -130,7 +130,7 @@
       </section>
       <section class="card card2">
         <div class="card-image">
-          <img src="image/Snapshoot4.png" alt="Work sample illustration">
+          <img src="image/Snapshoot4.png" alt="Work sample illustration for Uber Navigation project">
         </div>
         <div class="card-contents">
           <h2 class="card-head">Uber Navigation</h2>
@@ -167,27 +167,27 @@
           <p class="connect">LET'S CONNECT</p>
           <ul class="contact-icon">
             <li>
-              <a href="https://github.com/"><i class="fa fa-github"></i></a>
+              <a href="https://github.com/"><i class="fa fa-github social"></i>Github</a>
             </li>
             <li>
-              <a href="https://af.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://af.linkedin.com/"><i class="fa fa-linkedin social"></i>Linkedin</a>
             </li>
             <li>
-              <a href="https://angel.co/"><i class="fa fa-angellist"></i></a>
+              <a href="https://twitter.com"><i class="fa fa-twitter social"></i>Twitter</a>
             </li>
             <li>
-              <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+              <a href="https://medium.com/"><i class="fa fa-medium social"></i>Medium</a>
             </li>
             <li>
-              <a href="https://medium.com/"><i class="fa fa-medium"></i></a>
-            </li>
+                <a href="https://angel.co/"><i class="fa fa-angellist social"></i>Angellist</a>
+              </li>
           </ul>
           <button class="resume">Get My Resume</button>
         </div>
         <div class="expertise">
           <ul class="language">
             <li>
-              <h3>Languages</h3>
+              <h2>Languages</h2>
             </li>
             <li><i class="fa fa-chevron-down"></i></li>
           </ul>
@@ -251,7 +251,7 @@
           </p>
           <div class="footer-items">
             <form action="https://formspree.io/f/xjvlllyy" method="POST">
-              <label>
+              <label class="label-visibility" for="user-name">Name</label>
               <input
                 name="name"
                 id="user-name"
@@ -260,8 +260,7 @@
                 maxlength="30"
                 required
               />
-            </label>
-            <label>
+            <label class="label-visibility" for="user-email">Email</label>
               <input
                 name="email"
                 id="user-email"
@@ -269,16 +268,16 @@
                 placeholder="name@gmail.com"
                 required
               />
-            </label>
-            <label>
+            
+            <label class="label-visibility" for="msg">Message</label>
               <textarea
+                id="msg"
                 name="message"
                 maxlength="500"
                 required
                 placeholder="Write your message here"
               ></textarea>
-            </label>
-              <button type="submit">Get in Touch</button>
+              <button type="submit" class="footer-button" >Get in Touch</button>
             </form>
             <img class="footer-img" src="image/Shape.png" alt="" />
         </div>
