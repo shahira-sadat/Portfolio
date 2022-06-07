@@ -251,7 +251,7 @@
           </p>
           <div class="footer-items">
             <form action="https://formspree.io/f/xjvlllyy" method="POST">
-              <label class="label-visibility">Name</label>
+              <label class="label-visibility" for="user-name">Name</label>
               <input
                 name="name"
                 id="user-name"
@@ -260,7 +260,7 @@
                 maxlength="30"
                 required
               />
-            <label class="label-visibility">Email</label>
+            <label class="label-visibility" for="user-email">Email</label>
               <input
                 name="email"
                 id="user-email"
@@ -269,8 +269,9 @@
                 required
               />
             
-            <label class="label-visibility">Message</label>
+            <label class="label-visibility" for="msg">Message</label>
               <textarea
+                id="msg"
                 name="message"
                 maxlength="500"
                 required
