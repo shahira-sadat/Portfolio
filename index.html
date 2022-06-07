@@ -251,7 +251,7 @@
           </p>
           <div class="footer-items">
             <form action="https://formspree.io/f/xjvlllyy" method="POST">
-              <label>
+              <label class="label-visibility">Name</label>
               <input
                 name="name"
                 id="user-name"
@@ -260,8 +260,7 @@
                 maxlength="30"
                 required
               />
-            </label>
-            <label>
+            <label class="label-visibility">Email</label>
               <input
                 name="email"
                 id="user-email"
@@ -269,16 +268,15 @@
                 placeholder="name@gmail.com"
                 required
               />
-            </label>
-            <label>
+            
+            <label class="label-visibility">Message</label>
               <textarea
                 name="message"
                 maxlength="500"
                 required
                 placeholder="Write your message here"
               ></textarea>
-            </label>
-              <button type="submit">Get in Touch</button>
+              <button type="submit" class="footer-button" >Get in Touch</button>
             </form>
             <img class="footer-img" src="image/Shape.png" alt="" />
         </div>
