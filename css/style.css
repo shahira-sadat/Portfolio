@@ -32,14 +32,7 @@ body {
   font-weight: bold;
 }
 
-.navbar .icon {
-  display: none;
-}
 
-.navbar .fa-bars {
-  color: #6070ff;
-  font-size: 16px;
-}
 
 nav {
   display: flex;
@@ -59,6 +52,24 @@ a {
   text-decoration-line: none;
   opacity: 1;
 }
+
+.navbar .icon {
+  display: none;
+}
+
+.item a{
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2em;
+}
+
+.item a .fa-bars{
+  color: #6070ff;
+  font-size: 16px;
+  margin-left: -10px;
+}
+
 
 .desktop-item {
   visibility: hidden;
