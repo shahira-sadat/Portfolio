@@ -93,7 +93,7 @@ p {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 8px;
   padding: 1px;
   margin: 1px;
 }
@@ -107,6 +107,19 @@ li a {
 .social-icon {
   margin-left: 35px;
   display: flex;
+}
+
+.social-icon a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2.5em;
+}
+
+.social-icon a .social{
+  font-size: 2em;
+  color: #344563;
+  margin-left: 10px;
 }
 
 .btn {
@@ -189,8 +202,7 @@ li a {
 }
 
 .hand-icon {
-  width: 3em;
-  margin-left: 300px;
+  visibility: hidden;
 }
 
 #select {
@@ -240,7 +252,7 @@ li a {
 }
 
 .languages li {
-  color: #333c91;
+  color: #4c5cea;
   margin: 10px 1%;
   padding: 8px;
   display: inline-block;
@@ -391,6 +403,20 @@ button {
   padding-bottom: 20px;
 }
 
+.contact-icon a
+{
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2em;
+}
+
+.contact-icon a .social{
+  font-size: 24px;
+  color: #344563;
+  margin-left: -10px;
+}
+
 .about-myself button {
   border-radius: 8px;
   border: 1px solid #3d4ee4;
@@ -447,7 +473,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 
 .contact-paragraph {
@@ -481,6 +506,9 @@ textarea {
   color: #b3bac5;
   padding: 1em;
 }
+.label-visibility{
+  visibility: hidden;
+}
 
 .footer button {
   align-self: flex-start;
@@ -489,6 +517,7 @@ textarea {
   padding: 0.8em;
   border-radius: 5px;
   border: 0 solid #fff;
+  margin-top: 10px;
 }
 
 .footer-img {

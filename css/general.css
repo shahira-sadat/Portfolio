@@ -58,10 +58,17 @@
   }
 
   .social-icon a {
-    font-size: 2em;
-    color: #344563;
+    color: transparent;
+    width: 0;
+    height: 0;
+    margin: -1.5em;
   }
 
+  .social-icon a .social{
+    font-size: 2em;
+    color: #344563;
+    margin-left: 12px;
+  }
   .works-flex-pop span a {
     text-decoration: none;
     font-weight: bolder;
@@ -174,7 +181,7 @@
 
   #select {
     color: #fff;
-    background-color: #071273;
+    background-color: #3647dd;
     padding: 10px;
   }
 
@@ -216,7 +223,7 @@
   }
 
   .languages li {
-    color: #333c91;
+    color: #4c5cea;
     margin: 10px 1%;
     padding: 8px;
     display: inline-block;
@@ -303,6 +310,7 @@
     letter-spacing: 0.03em;
     color: #396df2;
     background-color: white;
+    padding: 16px;
   }
 
   button:hover {
@@ -401,7 +409,6 @@
 
   .contact-icon {
     margin: 1px;
-    margin-left: -40px;
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -409,7 +416,19 @@
     color: #505f79;
     margin-bottom: 20px;
   }
+.contact-icon a
+  {
+    color: transparent;
+    width: 0;
+    height: 0;
+    margin: -2em;
+  }
 
+  .contact-icon a .social{
+    font-size: 24px;
+    color: #344563;
+    margin-left: 12px;
+  }
   .language {
     display: flex;
     text-align: center;
