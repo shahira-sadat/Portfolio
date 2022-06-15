@@ -64,69 +64,74 @@ a {
   visibility: hidden;
 }
 
+li a {
+  color: #2d3b55;
+  margin-left: -42px;
+  padding-right: 35px;
+}
+
 .mobile-item {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: #6070fff0;
-    text-align: left;
-    display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #6070fff0;
+  text-align: left;
+  display: none;
 }
 
 .mobile-item a {
-    color: #fff;
+  color: #fff;
 }
 
 .technology a {
-    font-size: 12px;
-    font-weight: 500;
-    color: #6070ff;
-    border-radius: 8px;
-    text-align: center;
-    background: #ebebff;
-    padding: 5px 10px;
-    margin-left: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6070ff;
+  border-radius: 8px;
+  text-align: center;
+  background: #ebebff;
+  padding: 5px 10px;
+  margin-left: 0;
 }
 
 .flex-item3 a {
-    font-size: 13px;
-    font-weight: 600;
-    display: flex;
-    align-content: space-around;
-    color: #7a869a;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-content: space-around;
+  color: #7a869a;
 }
 
 .mobile-nav a {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .works-flex-pop span a {
-    text-decoration: none;
-    font-weight: bolder;
-    color: #acb7c3;
-    font-size: 20px;
-    padding-right: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #acb7c3;
+  font-size: 20px;
+  padding-right: 20px;
 }
 
 .mobile-item .close a {
-    font-weight: lighter;
-    font-size: 24px;
+  font-weight: lighter;
+  font-size: 24px;
 }
 
 .mobile-item .close {
-    padding-top: 50px;
-    text-align: right;
-    padding-right: 38px;
-    font-weight: lighter;
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
 }
 
 .mobile-nav {
-    padding: 15px 28px;
+  padding: 15px 28px;
 }
-
 
 .headline-section {
   background-image: url("../image/header-shapes-mobile.png");
@@ -160,12 +165,6 @@ ul {
   gap: 20px;
   padding: 1px;
   margin: 1px;
-}
-
-li a {
-  color: #2d3b55;
-  margin-left: -42px;
-  padding-right: 35px;
 }
 
 .social-icon {
@@ -562,7 +561,6 @@ textarea {
 }
 
 .social-icon .fa:hover {
-
   transform: rotate(45deg);
   animation-name: size;
   animation-duration: 1s;
