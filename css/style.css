@@ -1,3 +1,13 @@
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   background-color: rgb(248 248 248);
   font-family: Poppins, sans-serif;
@@ -78,6 +88,77 @@ li a {
   visibility: hidden;
 }
 
+.mobile-item {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  backdrop-filter: blur(9.5px);
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  text-align: left;
+  display: none;
+}
+
+.mobile-item a {
+  color: #fff;
+}
+
+.technology a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6070ff;
+  border-radius: 8px;
+  text-align: center;
+  background: #ebebff;
+  padding: 5px 10px;
+  margin-left: 0;
+}
+
+.flex-item3 a {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-content: space-around;
+  color: #7a869a;
+}
+
+.mobile-nav a {
+  font-size: 32px;
+}
+
+.social-icon a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2.5em;
+}
+
+.contact-icon a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2em;
+}
+
+.mobile-item .close a {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.mobile-item .close {
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 75px;
+  font-weight: lighter;
+}
+
+.mobile-nav {
+  padding: 15px 28px;
+}
+
 .headline-section {
   background-image: url("../image/header-shapes-mobile.png");
   background-repeat: no-repeat;
@@ -117,13 +198,6 @@ ul {
   display: flex;
 }
 
-.social-icon a {
-  color: transparent;
-  width: 0;
-  height: 0;
-  margin: -2.5em;
-}
-
 .social-icon a .social {
   font-size: 2em;
   color: #344563;
@@ -133,13 +207,6 @@ ul {
 .contact-icon {
   margin-left: 45px;
   padding-bottom: 20px;
-}
-
-.contact-icon a {
-  color: transparent;
-  width: 0;
-  height: 0;
-  margin: -2em;
 }
 
 .contact-icon a .social {
@@ -287,6 +354,14 @@ ul {
   border-radius: 8px;
 }
 
+.tags > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
 .about {
   width: 380px;
   background-color: #fff;
@@ -364,6 +439,10 @@ button {
 .underline {
   border: 0.5px solid #bbbdc0;
   top: 20px;
+}
+
+.work-image > img {
+  width: 100%;
 }
 
 .about .main-skill h2 {
@@ -456,6 +535,105 @@ button {
   margin-top: 30px;
 }
 
+#portfolioPopup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(76, 78, 82, 0.7);
+  display: none;
+}
+
+ul.works-flex-item.titles-container {
+  margin: 10px;
+}
+
+.works-flex {
+  padding: 20px;
+  background: #fff;
+  margin: 25px 20px;
+  border-radius: 10px;
+}
+
+.titles-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: lightslategray;
+  font-weight: 500;
+  list-style-image: url('../images/Counter.png');
+  padding-right: 25px;
+}
+
+.list-main {
+  padding-right: 10px;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #344563;
+  line-height: 24px;
+}
+
+.works-flex-pop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.work-description > p {
+  font-size: 18px;
+  color: #344563;
+  font-weight: lighter;
+  font-family: Popins, sans-serif;
+  line-height: 28px;
+}
+
+.project-tags > div {
+  margin-left: 10px;
+}
+
+.lang-group {
+  display: none;
+}
+
+#mobile {
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  padding: 4px 12px;
+  color: #6070ff;
+  margin-top: 5px;
+  line-height: 16px;
+}
+
+.btn-tags {
+  border-top: 1px solid rgb(236, 234, 234);
+  padding-top: 20px;
+}
+
+a.btn-see-project {
+  text-decoration: none;
+  color: #4053fc;
+}
+
+.btn-see-project {
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  transition-duration: 0.4s;
+  margin: 0 5px;
+}
+
 .footer {
   background-image: url("../image/Contact_me.png");
   color: #fff;
@@ -534,7 +712,7 @@ textarea {
   margin-left: 4em;
 }
 
-.fa:hover {
+.social-icon .fa:hover {
   transform: rotate(45deg);
   animation-name: size;
   animation-duration: 1s;
