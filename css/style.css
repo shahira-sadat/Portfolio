@@ -32,15 +32,6 @@ body {
   font-weight: bold;
 }
 
-.navbar .icon {
-  display: none;
-}
-
-.navbar .fa-bars {
-  color: #6070ff;
-  font-size: 16px;
-}
-
 nav {
   display: flex;
   flex: 1 1 auto;
@@ -58,6 +49,29 @@ a {
   color: #6070ff;
   text-decoration-line: none;
   opacity: 1;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+li a {
+  color: #2d3b55;
+  margin-left: -42px;
+  padding-right: 35px;
+}
+
+.item a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2em;
+}
+
+.item a .fa-bars {
+  color: #6070ff;
+  font-size: 16px;
+  margin-left: -10px;
 }
 
 .desktop-item {
@@ -157,20 +171,45 @@ p {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 8px;
   padding: 1px;
   margin: 1px;
-}
-
-li a {
-  color: #2d3b55;
-  margin-left: -42px;
-  padding-right: 35px;
 }
 
 .social-icon {
   margin-left: 35px;
   display: flex;
+}
+
+.social-icon a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2.5em;
+}
+
+.social-icon a .social {
+  font-size: 2em;
+  color: #344563;
+  margin-left: 10px;
+}
+
+.contact-icon {
+  margin-left: 45px;
+  padding-bottom: 20px;
+}
+
+.contact-icon a {
+  color: transparent;
+  width: 0;
+  height: 0;
+  margin: -2em;
+}
+
+.contact-icon a .social {
+  font-size: 24px;
+  color: #344563;
+  margin-left: -10px;
 }
 
 .btn {
@@ -253,8 +292,7 @@ li a {
 }
 
 .hand-icon {
-  width: 3em;
-  margin-left: 300px;
+  visibility: hidden;
 }
 
 #select {
@@ -304,11 +342,11 @@ li a {
 }
 
 .languages li {
-  color: #6070ff;
+  color: #4c5cea;
   margin: 10px 1%;
   padding: 8px;
   display: inline-block;
-  background-color: #ebebff;
+  background-color: #ededfc;
   border: none;
   border-radius: 8px;
 }
@@ -450,11 +488,6 @@ button {
   padding-bottom: 4em;
 }
 
-.contact-icon {
-  margin-left: 45px;
-  padding-bottom: 20px;
-}
-
 .about-myself button {
   border-radius: 8px;
   border: 1px solid #3d4ee4;
@@ -511,7 +544,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 
 .contact-paragraph {
@@ -546,6 +578,10 @@ textarea {
   padding: 1em;
 }
 
+.label-visibility {
+  visibility: hidden;
+}
+
 .footer button {
   align-self: flex-start;
   color: #6070ff;
@@ -553,6 +589,7 @@ textarea {
   padding: 0.8em;
   border-radius: 5px;
   border: 0 solid #fff;
+  margin-top: 10px;
 }
 
 .footer-img {
