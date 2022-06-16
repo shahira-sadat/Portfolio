@@ -93,7 +93,7 @@
     color: transparent;
     width: 0;
     height: 0;
-    margin: -2em;
+    margin: -1em;
   }
 
   .contact-icon a .social {
@@ -780,10 +780,6 @@ p.connect {
   padding: 10px;
 }
 
-.contact-icon li a {
-  font-size: 1.5em;
-  color: #505f79;
-}
 
 .language {
   display: flex;
