@@ -68,3 +68,46 @@ const projectDetail = [{
 },
 ];
 /* projectDetail object end */
+
+/* project detail population start */
+for (let i = 0; i < projectDetail.length; i++) {
+    let tech = '';
+    let experienceList = '';
+
+    for (let j = 0; j < projectDetail[i].technologies.length; j++) {
+        tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
+    }
+
+    for (let k = 0; k < projectDetail[i].exprience.length; k++) {
+        experienceList += (k === 0) ? `<li><a href="#" class="canopy">${projectDetail[i].exprience[k]}</a></li>` : `<li><a href="#">${projectDetail[i].exprience[k]}</a></li>`;
+        if (k !== projectDetail[i].exprience.length - 1) experienceList += '<li><a href="#"><img src="image/Counter.png" alt="dot"></a></li>';
+    }
+    document.querySelector('#portfolio').innerHTML += `<div class="main-container">
+  <div class="grid-item" id="work-1">
+    <div class="flex-item1"><img src="${projectDetail[i].imageMobile}" alt="my tonic project"></div>
+    <div class="desk-item1"><img src="${projectDetail[i].image}" alt="my tonic project"></div>
+    <div class="desk-col">
+      <div class="flex-item2">
+        <h2>${projectDetail[i].title}</h2>
+      </div>
+      <div class="flex-item2-desk">
+        <h2>${projectDetail[i].title}</h2>
+      </div>
+      <div class="flex-item3">
+        <ul class="inner-element">
+          ${experienceList}
+        </ul>
+      </div>
+      <div class="flex-item4">
+        <p>${projectDetail[i].desription}</p>
+      </div>
+      <div class="flex-item5">
+        <ul class="inner-flex-item">
+        ${tech}
+        </ul>
+      </div>
+      <div class="flex-item6"><button data-index="${i}" class="see-project">See project</button></div>
+    </div>
+  </div>`;
+}
+/* project detail population end */
