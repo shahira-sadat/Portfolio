@@ -172,51 +172,31 @@
       </section>
     </main>
 
-
-    <footer class="footer" id="contact">
-        <div class="contact-content">
-          <h2 class="contact-header">Contant Us</h2>
-          <p class="contact-paragraph">
-            If you have an application you are interested in developing, a feature
-            that you need built or a project that needs coding. I’d love to help
-            with it
-          </p>
-          <div class="footer-items">
-            <form action="https://formspree.io/f/xjvlllyy" method="POST">
-              <label class="label-visibility" for="user-name">Name</label>
-              <input
-                name="name"
-                id="user-name"
-                type="text"
-                placeholder="Name"
-                maxlength="30"
-                required
-              />
-            <label class="label-visibility" for="user-email">Email</label>
-              <input
-                name="email"
-                id="user-email"
-                type="email"
-                placeholder="name@gmail.com"
-                required
-              />
-            
-            <label class="label-visibility" for="msg">Message</label>
-              <textarea
-                id="msg"
-                name="message"
-                maxlength="500"
-                required
-                placeholder="Write your message here"
-              ></textarea>
-              <button type="submit" class="footer-button" >Get in Touch</button>
-            </form>
-            <img class="footer-img" src="image/Shape.png" alt="" />
-        </div>
-        </div>
-      </footer>
-      <section class="worksPopup" id="portfolioPopup">
-      </section>
+<section class="contact" id="contact">
+  <div class="inner-div">
+    <h2>Contact me</h2>
+    <p id="inner-div">If you have an application you are interested in developing, a feature that you need
+      built or a project that needs coding. I’d love to help with it </p>
+  </div>
+  <form action="https://formspree.io/f/xbjwrzvy" id="form" class="form" method="post">
+    <ul class="inner-list">
+      <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40"
+          maxlength="30">
+      </li>
+      <li> </li>
+      <li><input type="email" class="form-control" name="email" id="email" placeholder="Email address">
+      </li>
+      <li> </li>
+      <li><textarea name="text" class="form-control" id="text" placeholder="Message"></textarea></li>
+      <li> </li>
+      <li class="flex-item6" id="submit-btn"><button type="submit">Get In Touch</button></li>
+      <li class="shape"><img src="image/Shape.png" alt="shape"></li>
+    </ul>
+  </form>
+</section>
+</main>
+<section class="worksPopup" id="portfolioPopup">
+</section>
       <script src="main.js"></script>
   </body>
 </html>
