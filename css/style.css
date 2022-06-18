@@ -411,7 +411,7 @@ li a {
 
 .contact {
   background-color: #6070ff;
-  background-image: url('../images/contact.png');
+  background-image: url('../image/contact.png');
   background-size: 100%;
   border-top-left-radius: 100px;
   margin-top: 100px;
@@ -438,6 +438,11 @@ li a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+
+.red-error {
+  position: relative;
+  top: 240px;
 }
 
 .form {
