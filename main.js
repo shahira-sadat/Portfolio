@@ -218,3 +218,27 @@ document.querySelector('#form').addEventListener('submit', (e) => {
 
 /* Contact Form Validation end */
 
+
+/* preserve data in the browser start*/
+
+let userDetails = {
+  name: '',
+  email: '',
+  message: '',
+};
+
+if (localStorage.getItem('savedDetails') !== null) {
+  const finalDetails = localStorage.getItem('savedDetails');
+  userDetails = JSON.parse(finalDetails);
+}
+const input = document.querySelectorAll('input,textarea');
+input.forEach((item) => {
+  item.value = userDetails[item.name];
+  item.addEventListener('input', (e) => {
+    userDetails[e.target.name] = e.target.value;
+    const userData = JSON.stringify(userDetails);
+    localStorage.setItem('savedDetails', userData);
+  });
+});
+
+/* preserve data in the browser end */
