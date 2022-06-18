@@ -180,16 +180,17 @@
   </div>
   <form action="https://formspree.io/f/xbjwrzvy" id="form" class="form" method="post">
     <ul class="inner-list">
-      <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40"
+      <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" required
           maxlength="30">
       </li>
       <li> </li>
-      <li><input type="email" class="form-control" name="email" id="email" placeholder="Email address">
+      <li><input type="email" class="form-control" name="email" id="email" placeholder="Email address" required>
       </li>
-      <li> </li>
-      <li><textarea name="text" class="form-control" id="text" placeholder="Message"></textarea></li>
+      <li class="red-error"> </li>
+      <li><textarea name="text" class="form-control" id="text" placeholder="Message" required></textarea></li>
       <li> </li>
       <li class="flex-item6" id="submit-btn"><button type="submit">Get In Touch</button></li>
+      <p class="error" ></p>
       <li class="shape"><img src="image/Shape.png" alt="shape"></li>
     </ul>
   </form>

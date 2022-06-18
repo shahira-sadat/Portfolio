@@ -186,6 +186,7 @@ const closePopupModal = () => {
 
 /* Contact Form validation start */
 const regex = '[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$';
+const errormsg = document.querySelector('.error');
 document.querySelector('#form').addEventListener('submit', (e) => {
   for (let i = 0; i < e.target.length; i += 1) {
     if (e.target[i].classList.contains('form-control')) {
@@ -197,6 +198,7 @@ document.querySelector('#form').addEventListener('submit', (e) => {
       } else if (e.target[i].type === 'input' && e.target[i].value.length > e.target[i].getAttribute('maxlength')) {
         e.target[i].parentElement.nextElementSibling.innerText = `The maximum number of character is ${e.target[i].getAttribute('maxlength')}`;
         e.target[i].parentElement.nextElementSibling.style.color = 'red';
+        e.target[i].parentElement.nextElementSibling.style.position = 'relative';
         e.preventDefault();
       } else if (e.target[i].type === 'email' && e.target[i].value !== e.target[1].value.toLowerCase()) {
         e.target[i].parentElement.nextElementSibling.innerText = 'Please enter your email in lowercase';
@@ -215,3 +217,4 @@ document.querySelector('#form').addEventListener('submit', (e) => {
 });
 
 /* Contact Form Validation end */
+

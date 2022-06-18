@@ -339,6 +339,11 @@
     column-gap: 10px;
   }
 
+  .red-error {
+    position: relative;
+    top: 20em;
+  }
+
   .resume {
     border: 1px solid #dfe1e6;
     border-radius: 8px;
